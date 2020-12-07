@@ -4,7 +4,7 @@ I0=2.5e-12;
 Vt=0.02586;
 Vd= -1:0.01:1;
 I=I0*(exp(Vd/(2*Vt)));
-plot(Vd,I);
+%plot(Vd,I);
 
 %Program to input voltage values
 t=(0:0.01:10)';
